@@ -83,6 +83,9 @@ span {
 
 .popular-tag .popular-img {
     padding-left: 30px;
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
 }
 
 .popular-title {
@@ -156,13 +159,7 @@ div ul li {
     line-height: 26px;
     padding-top: 10px;
 }
-.fourth-img-tag{
+
+.fourth-img-tag {
     padding-top: 30px;
 }
-
-
-
-
-
-
-
