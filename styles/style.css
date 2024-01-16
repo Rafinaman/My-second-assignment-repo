@@ -40,6 +40,9 @@ nav>ul a {
     text-decoration: none;
     padding-right: 44px;
 }
+.logo{
+    margin-top: 4%;
+}
 
 .nav-title {
     color: #131318;
@@ -58,7 +61,8 @@ span {
     text-align: center;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    width: 1300px;
+    background-size: cover;
+    width: 1260px;
     height: 500px;
     border-radius: 16px;
     background: linear-gradient(rgba(0, 0, 0, 0, ) 0%, rgba(16, 16, 17, 0) 100%);
@@ -339,4 +343,126 @@ div ul li {
 
 .video-clip {
     border-radius: 16px;
+}
+
+/* Newsletter section */
+.Newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.Newsletter .Newsletter-form {
+    padding: 0 7%;
+    margin: 0 30px 0 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 400px;
+}
+
+.Newsletter .Newsletter-form input {
+    display: block;
+    border-radius: 8px;
+    width: 60%; padding: 12px 15px;
+    margin: 15px 2%;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#Newsletter-button {
+    width: 70%;
+    padding: 12px 15px;
+    margin: 15px 2%;
+}
+
+.Newsletter .Newsletter-image {
+    width: 672px;
+    height: 422px;
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding: 0 5%;
+    border-radius: 16px;
+}
+
+#Newsletter-hr {
+    width: 74%;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.Newsletter .Newsletter-image .image-over-text {
+    background: #FF5400;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    padding: 0%;
+    border-radius: 10px;
+    margin: 55% 73%;
+    rotate: -15deg;
+    position: relative;
+}
+
+.Newsletter .Newsletter-image .image-over-text>p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px 0px;
+
+}
+
+.Newsletter .Newsletter-image .image-over-text>h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px 0px;
+
+}
+
+/*footer styles*/
+
+.footer {
+    background-position: 100%;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+
+}
+
+.footer .footer-logo-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .footer-logo-title .logo {
+    margin-top: 4%;
+    padding-right: 16px;
+    align-items: center;
+}
+
+.footer .footer-logo-title .h1 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer .social-media {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 15px;
+    padding-bottom: 0%;
+}
+
+.footer>small {
+    text-align: center;
+
 }
